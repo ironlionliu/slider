@@ -1,0 +1,67 @@
+@charset "utf-8";
+.main{
+	width: 40%;
+	margin: 0 auto;
+	}
+.main .title{
+	display: flex;
+	}
+.main .title .menu{
+	width: 100%;
+	height: 34px;
+	border-bottom: 2px solid #e5e5e5;
+	display: flex;
+	flex: 2;
+	}
+.main .title .menu .item{
+	border-right: 2px solid #e5e5e5;
+	border-left: 2px solid #e5e5e5;
+	font: 14px/34px "Microsoft Yahei";
+	border-radius: 15px;
+	text-align: center;
+	height: 34px;
+	padding: 0 20px;
+	flex: 1;
+	}
+.main .title .menu .item:hover{
+	cursor: pointer;
+	}
+.main .title .menu .selected{
+	background: #CDE;
+	border-bottom: 0px solid #e5e5e5;
+	}
+.main .title .type{
+	margin-left: 50px;
+	margin-right: 10px;
+	flex: 1;
+	display: inline-flex;
+	}
+.main .title .type .item{
+	flex: 1;
+	display:block;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+.main .scroll .content{
+	display: inline-flex;
+	background: rgba(0,0,0,0.3);
+	}
+.main .scroll .content .country {
+	flex: 6;
+	}
+.main .scroll .content .country .yd,.bj,.ld,.ly{
+	margin-left: 0px;
+	line-height: 40px;
+	}
+.main .scroll .content .country .yd{background:rgba(255,204,0,0.8);}
+.main .scroll .content .country .bj{background:rgba(255,0,0,1);}
+.main .scroll .content .country .ld{background:rgba(0,204,255,1);}
+.main .scroll .content .country .ly{background:rgba(0,255,0,1);}
+.main .scroll .content .gold,.silver,.bronze{
+	flex: 1;
+	text-align: center;
+	line-height: 40px;
+	color: rgba(255,255,255,1)
+	}
